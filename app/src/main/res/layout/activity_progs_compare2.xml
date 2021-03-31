@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="13">
+    <RelativeLayout android:gravity="center" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textSize="15sp" android:id="@+id/textView20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="12">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="9">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="50">
+                            <RelativeLayout android:gravity="center" android:background="#424242" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.5">
+                                <TextView android:textSize="19sp" android:textColor="#ffffff" android:id="@+id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="48.5">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                                    <RelativeLayout android:background="#424242" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                                    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="center" android:background="#ff0000" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="8">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="50">
+                            <RelativeLayout android:id="@+id/rel01" android:background="@color/greyy" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.5">
+                                <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+                                    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="260dp">
+                                        <TextView android:textSize="16sp" android:id="@+id/textView24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+                                    </RelativeLayout>
+                                </ScrollView>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="48.5">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                                    <RelativeLayout android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                                    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <Button android:id="@+id/button8" android:background="@drawable/solok" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="9">
+                    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="50">
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="48.5">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                                    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+                                    <RelativeLayout android:background="#424242" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <RelativeLayout android:background="#424242" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.5">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="100">
+                                    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                                        <TextView android:textSize="19sp" android:textColor="#ffffff" android:id="@+id/textView14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+                                    </RelativeLayout>
+                                    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="99"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="8">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="98.5">
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="48.5">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                                    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                                    <RelativeLayout android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <RelativeLayout android:gravity="center" android:id="@+id/rel02" android:background="@color/greyy" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.5">
+                                <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+                                    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="260dp">
+                                        <TextView android:textSize="16sp" android:id="@+id/textView25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+                                    </RelativeLayout>
+                                </ScrollView>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="48.5">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                                    <RelativeLayout android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+                                    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:background="#0000ff" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="9">
+                    <RelativeLayout android:gravity="center" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="50">
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="48.5">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                                    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+                                    <RelativeLayout android:background="#424242" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <RelativeLayout android:gravity="center" android:background="#424242" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.5">
+                                <TextView android:textSize="19sp" android:textColor="#ffffff" android:id="@+id/textView15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="center" android:background="#ff0000" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="8">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="50">
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="48.5">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                                    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+                                    <RelativeLayout android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <RelativeLayout android:gravity="center" android:id="@+id/rel03" android:background="@color/greyy" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.5">
+                                <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+                                    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="260dp">
+                                        <TextView android:textSize="16sp" android:id="@+id/textView26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+                                    </RelativeLayout>
+                                </ScrollView>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <Button android:id="@+id/button10" android:background="@drawable/sagok" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
